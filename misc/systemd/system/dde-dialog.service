@@ -1,0 +1,10 @@
+[Unit]
+Description=DDE dialog
+
+[Service]
+Type=dbus
+BusName=org.deepin.dde.dialog1
+User=dde-dialog
+ExecStart=/usr/libexec/dde-dialog/dialog-daemon
+
+ReadOnlyPaths=/usr/share/dde-dialog

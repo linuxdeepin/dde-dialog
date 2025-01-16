@@ -1,0 +1,9 @@
+schemas:
+  - id: org.deepin.dde.dialog.example
+    type: test
+    description: test description
+    message: test message {} content
+    actions:
+      - cancel
+      # - ok
+      - custom:format

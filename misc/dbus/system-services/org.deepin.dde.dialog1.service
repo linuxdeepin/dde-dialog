@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.deepin.dde.dialog1
+Exec=/usr/libexec/dde-dialog/dialog-daemon
+User=dde-dialog
+SystemdService=dde-dialog.service
