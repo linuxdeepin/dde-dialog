@@ -15,6 +15,7 @@ Build-Depends:
  libdtk6core-dev,
  libdtk6gui-dev,
  libdbus-1-dev,
+ systemd-dev,
 Standards-Version: 4.7.0
 Homepage: <https://github.com/linuxdeepin/dde-dialog>
 #Vcs-Browser: https://salsa.debian.org/debian/dde-dialog
