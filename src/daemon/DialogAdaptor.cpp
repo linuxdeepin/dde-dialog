@@ -56,12 +56,16 @@ struct convert<Data> {
             }
         }
 
+        auto getString = [](const Node &n) -> std::string {
+            return (n && !n.IsNull()) ? n.as<std::string>() : std::string();
+        };
+
         rhs.schemas.push_back({
-            QString::fromStdString((*it)["id"].as<std::string>()),
-            QString::fromStdString((*it)["type"].as<std::string>()),
-            (*it)["gettext-domain"] ? QString::fromStdString((*it)["gettext-domain"].as<std::string>()) : "",
-            QString::fromStdString((*it)["description"].as<std::string>()),
-            QString::fromStdString((*it)["message"].as<std::string>()),
+            QString::fromStdString(getString((*it)["id"])),
+            QString::fromStdString(getString((*it)["type"])),
+            QString::fromStdString(getString((*it)["gettext-domain"])),
+            QString::fromStdString(getString((*it)["description"])),
+            QString::fromStdString(getString((*it)["message"])),
             actions,
         });
     }
