@@ -1,3 +1,9 @@
+dde-dialog (1.0.2) unstable; urgency=medium
+
+  * fix(daemon): dialog-agent displays "null" in pop-up content
+
+ -- zhangkun <zhangkun2@uniontech.org>  Thu, 5 Feb 2026 21:40:36 +0800
+
 dde-dialog (1.0.1) UNRELEASED; urgency=medium
 
   * refactor: 调整control.
