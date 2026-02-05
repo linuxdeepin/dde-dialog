@@ -1,8 +1,15 @@
-dde-dialog (1.0.1) UNRELEASED; urgency=medium
+dde-dialog (1.0.2) unstable; urgency=medium
 
+  [ echengqi ]
   * refactor: 调整control.
 
- -- echengqi <echengqi@uniontech.org>  Fri, 11 Jan 2025 13:40:36 +0800
+  [ zhangkun ]
+  * fix(daemon): dialog-agent displays "null" in pop-up content
+  * chore: Bump version to 1.0.1
+  * refactor: 调整control
+  * refactor: 调整control
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 05 Feb 2026 19:51:43 +0800
 
 dde-dialog (1.0.0) UNRELEASED; urgency=medium
 
